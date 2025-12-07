@@ -11,7 +11,7 @@
 <!-- Bootstrap -->
 <link href="css/all.css" rel="stylesheet">
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="css/dcd_stylesheet.css?v=1.2" rel="stylesheet">
+<link href="css/dcd_stylesheet.css?v=1.5" rel="stylesheet">
 </head>
 <body>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
@@ -24,11 +24,24 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
         <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#">Services</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
+          <div class="dropdown-menu"> <a class="dropdown-item" href="#">Daily Doctor Consultation</a> <a class="dropdown-item" href="#">Home Visit for Patient Check-ups</a> <a class="dropdown-item" href="#">Modern Diagnostic Lab</a> <a class="dropdown-item" href="#">All Types of Medical Tests</a> <a class="dropdown-item" href="#">Affordable Test Pricing</a> <a class="dropdown-item" href="#">Home Sample Collection</a> </div>
+        </li>
         <li class="nav-item"> <a class="nav-link" href="#">Doctors</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#">Diagnostics</a> </li>
         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="labservices" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Lab Services </a>
-          <div class="dropdown-menu" aria-labelledby="labservices"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a> </div>
+          <div class="dropdown-menu"> 
+              <a class="dropdown-item" href="#">Routine Blood Tests</a> 
+              <a class="dropdown-item" href="#">Biochemistry Tests</a> 
+              <a class="dropdown-item" href="#">Hormone &amp; Thyroid Testing</a> 
+              <a class="dropdown-item" href="#">Infection Screening</a> 
+              <a class="dropdown-item" href="#">Diabetes Monitoring</a> 
+              <a class="dropdown-item" href="#">Urine &amp; Stool Analysis</a> 
+              <a class="dropdown-item" href="#">Pregnancy &amp; Fertility Tests</a> 
+              <a class="dropdown-item" href="#">Cardiac Risk Markers</a> 
+              <a class="dropdown-item" href="#">Coagulation Profile</a> 
+              <a class="dropdown-item" href="#">Home Sample Collection</a> 
+            </div>
         </li>
         <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
       </ul>
@@ -43,64 +56,124 @@
   <section id="dcd_carousel" class="theme_color_2">
     <div class="dcd_carousel_1" style="background-image: url('images/1.jpg')">
       <div class="dcd_secn">"
-          <div class="dcd_carousel_caption">
-            <h1>Doctors Clinic &amp; Diagnostics</h1>
-            <p>Comprehensive medical consultation and modern diagnostic services located near Mundayankavu Village Office, Kollam.</p>
-            <p class="text-center"><strong>Phone:</strong> 0474-3597291 | <strong>Mobile:</strong> 8590301757 | <br><strong>Email:</strong> dcad2024@gmail.com</p>
-          </div>
+        <div class="dcd_carousel_caption">
+          <h1>Doctors Clinic &amp; Diagnostics</h1>
+          <p>Comprehensive medical consultation and modern diagnostic services located near Mundayankavu Village Office, Kollam.</p>
+          <p class="text-center"><strong>Phone:</strong> 0474-3597291 | <strong>Mobile:</strong> 8590301757 | <br>
+            <strong>Email:</strong> dcad2024@gmail.com</p>
+        </div>
       </div>
     </div>
   </section>
   <section id="about" class="theme_color_3">
     <div class="container">
-      <div class="dcd_secn">
-        <h2>Welcome to Doctors Clinic & Diagnostics</h2>
-        <p>We provide daily outpatient consultation along with complete diagnostic services. Our team also offers home visits for patient check-ups and medical support.</p>
-        <p>Our laboratory is equipped with modern testing facilities. All tests are completed quickly at affordable rates, and home sample collection is available upon request.</p>
-      </div>
+        <div class="row align-items-center">
+            <div class="col-12 col-sm-6 col-md-5">
+              <div class="dcd_secn">
+                <h2>Welcome to Doctors Clinic &amp; Diagnostics</h2>
+                <p>We provide daily outpatient consultation along with complete diagnostic services. Our team also offers home visits for patient check-ups and medical support.</p>
+                <p>Our laboratory is equipped with modern testing facilities. All tests are completed quickly at affordable rates, and home sample collection is available upon request.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-7">
+                <div class="dcd_secn">
+                    <div class="dcd_photo">
+                      <img src="images/3.jpg" width="1621" height="1080" alt="Doctor Room"> 
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   </section>
-  <section id="services" class="theme_color_4">
+  <section id="keyservices" class="theme_color_4">
     <div class="container">
       <div class="dcd_secn">
         <h2>Our Key Services</h2>
-        <ul>
-          <li>Daily Doctor Consultation</li>
-          <li>Home Visit for Patient Check-ups</li>
-          <li>Modern Diagnostic Lab</li>
-          <li>All Types of Medical Tests</li>
-          <li>Affordable Test Pricing</li>
-          <li>Home Sample Collection</li>
-        </ul>
       </div>
+      <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="dcd_secn">
+                <h3><strong>🩺</strong> Daily Doctor Consultation</h3>
+                <p>Our clinic provides daily outpatient consultation by experienced doctors, offering timely diagnosis, treatment, and follow-up care for patients of all age groups.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="dcd_secn">
+                  <h3><strong>🏠</strong> Home Visit for Patient Check-ups</h3>
+                  <p>For patients who cannot travel, our medical team visits homes to conduct check-ups, assessments, and provide essential medical support at your doorstep.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="dcd_secn">
+                  <h3><strong>🔬</strong> Modern Diagnostic Lab</h3>
+                  <p>We operate a fully equipped diagnostic laboratory with advanced testing technology to deliver accurate and reliable results quickly and efficiently.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="dcd_secn">
+                  <h3><strong>🧪</strong> All Types of Medical Tests</h3>
+                  <p>From routine blood tests to specialized investigations, we offer a comprehensive range of laboratory tests to support accurate diagnosis and treatment planning.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="dcd_secn">
+                  <h3><strong>📉</strong> Affordable Test Pricing</h3>
+                  <p>All diagnostic procedures are provided at reasonable and transparent pricing, ensuring everyone can access quality medical care without financial stress.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="dcd_secn">
+                  <h3><strong>🚚</strong> Home Sample Collection</h3>
+                  <p>Our staff collects lab samples directly from patients’ homes, providing convenience and comfort while ensuring proper handling and timely test processing.</p>
+              </div>
+            </div>
+          </div>
     </div>
+  </section>
+  <section id="dcd_map">
+      <div class="container">
+          <div class="dcd_secn">
+              <h2>🗺️ Clinic Location &amp; Directions</h2>
+          </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.0779558035115!2d76.6093776!3d8.872335099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05fd7d91e41735%3A0xbd7a59a318d9ab57!2sDoctors%20Clinic%20and%20Diagnostics!5e0!3m2!1sen!2sin!4v1765096837645!5m2!1sen!2sin" style="width: 100%; height: 450px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
   <footer class="theme_color_5">
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6 col-md-4">
-          <h2>Consultation Timings</h2>
-          <ul>
-            <li><strong>Monday – Saturday:</strong> 9:00 AM to 12:00 PM</li>
-            <li><strong>Evening:</strong> 4:00 PM to 8:00 PM</li>
-            <li><strong>Sunday:</strong> 9:00 AM to 12:00 PM</li>
-          </ul>
-          <h2>Lab Timings</h2>
-          <ul>
-            <li><strong>Monday – Saturday:</strong> 6:30 AM to 7:00 PM</li>
-            <li><strong>Sunday:</strong> 6:30 AM to 12:00 PM</li>
-          </ul>
+            <div class="dcd_secn">
+              <h2>Consultation Timings</h2>
+              <ul>
+                <li><strong>Monday – Saturday:</strong> 9:00 AM to 12:00 PM</li>
+                <li><strong>Evening:</strong> 4:00 PM to 8:00 PM</li>
+                <li><strong>Sunday:</strong> 9:00 AM to 12:00 PM</li>
+              </ul>
+            </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4">
-          <h2>Contact Us</h2>
-          <p><strong>Location:</strong> Near Mundayankavu Village Office, Thekkevila P.O., Kollam - 16</p>
-          <p><strong>Phone:</strong> 0474-3597291</p>
-          <p><strong>Mobile:</strong> 8590301757</p>
-          <p><strong>Email:</strong> dcad2024@gmail.com</p>
+            <div class="dcd_secn">
+              <h2>Lab Timings</h2>
+              <ul>
+                <li><strong>Monday – Saturday:</strong> 6:30 AM to 7:00 PM</li>
+                <li><strong>Sunday:</strong> 6:30 AM to 12:00 PM</li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="dcd_secn">
+              <h2>Contact Us</h2>
+              <p><strong>Location:</strong> Near Mundayankavu Village Office, Thekkevila P.O., Kollam - 16</p>
+              <p><strong>Phone:</strong> 0474-3597291</p>
+              <p><strong>Mobile:</strong> 8590301757</p>
+              <p><strong>Email:</strong> dcad2024@gmail.com</p>
+            </div>
         </div>
         <div class="text-center col-lg-6 offset-lg-3">
-          <h4>Footer </h4>
-          <p>Copyright &copy; 2019 &middot; All Rights Reserved &middot; <a href="#" >My Website</a></p>
+            <div class="dcd_secn">
+              <h2>Copyrights</h2>
+              <p>Copyright &copy; 2025 &middot; All Rights Reserved &middot; <a href="#" >Doctors Clinic &amp; Diagnostics</a></p>
+            </div>
         </div>
       </div>
     </div>
