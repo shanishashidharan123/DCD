@@ -1079,13 +1079,14 @@ body{
 					}
 				}
 				a{
-					color: var(--white);
-					text-decoration: underline;
+					color: inherit;
+					text-decoration: none;
 					&:hover, &:focus{
-						color: #eee991;
+						color: var(--dcdglow);
+                        text-decoration: underline; 
 					}
 					&:active{
-						color: #E5DD57;
+						color: var(--themeadcolor3);
 						text-decoration: none;
 					}
 				}
@@ -1233,15 +1234,15 @@ body{
 				}
 				h2{
 					font-size: 300%;
-					font-weight: 700;
+					font-weight: 100;
 				}
 				h3{
 					font-size: 240%;
-					font-weight: 600;
+					font-weight: 100;
 				}
 				h4{
 					font-size: 228%;
-					font-weight: 600;
+					font-weight: 100;
 				}
 				h5{
 					font-size: 216%;
@@ -4039,23 +4040,23 @@ body{
 			a{
 				color: inherit; 
 				&:hover, &:focus{
-					color: var(--themeadcolor2);
+					color: var(--themecolor2);
 				}
 				&:active{
-					color: var(--themeadcolor3);
+					color: var(--themecolor3);
 					text-decoration: none;
 				}
 			}
 			&.socials{
 				a{
 					font-size: 160%;
-					color: var(--white);
+					color: inherit;
 					&:hover, &:focus{
-						color: var(--dcdglow);
+						color: var(--themecolor2);
 						box-shadow: none;
 					}
 					&:active{
-						color: var(--themeadcolor3);
+						color: var(--themecolor3);
 						@include boxshadow1;
 					}
 				}
