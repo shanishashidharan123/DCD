@@ -61,6 +61,9 @@ $(function () {
     }, 6000);
 	$("body").addClass("show");
     var pageName = window.location.pathname.split("/").pop();
+    if(pageName==""){
+        pageName="index.html";
+    }
     var selector = '[href="' + pageName + '"]';
     if ($(selector).length > 0) {
         $(".nav-item").removeClass("active");
