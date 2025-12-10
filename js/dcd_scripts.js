@@ -60,6 +60,12 @@ $(function () {
         $("#loadin").html("");
     }, 6000);
 	$("body").addClass("show");
+    var pageName = window.location.pathname.split("/").pop();
+    var selector = '[href="' + pageName + '"]';
+    if ($(selector).length > 0) {
+        $(".nav-item").removeClass("active");
+        $(selector).closest(".nav-item").addClass("active");
+    }
     if ($(".alert").length > 0) {
         var timer = setTimeout(function () {
             $(".alert").fadeOut()

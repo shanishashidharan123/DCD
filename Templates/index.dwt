@@ -27,7 +27,7 @@
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#dcd_hdmenu" aria-controls="dcd_hdmenu" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-solid fa-list"></i></span> </button>
     <div class="collapse navbar-collapse" id="dcd_hdmenu">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"> <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a> </li>
         <li class="nav-item"> <a class="nav-link" href="../about-us.html">About Us</a> </li>
         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
           <div class="dropdown-menu"> <a class="dropdown-item" href="#">Daily Doctor Consultation</a> <a class="dropdown-item" href="#">Home Visit for Patient Check-ups</a> <a class="dropdown-item" href="#">Modern Diagnostic Lab</a> <a class="dropdown-item" href="#">All Types of Medical Tests</a> <a class="dropdown-item" href="#">Affordable Test Pricing</a> <a class="dropdown-item" href="#">Home Sample Collection</a> </div>

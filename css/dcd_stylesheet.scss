@@ -32,7 +32,7 @@
 	--themecpmcoloralpha5: rgba(27,47,51,0.8);
 	--dcdglow: #c0061d;
 	--dcdglowalpha: rgba(192,6,29,0.5);
-	--black: #333333;
+	--black: #000D14;
 	--darkborder: rgba(13,13,13,0.13);
 	--white: #ffffff;
 	--white: #cccccc;  
@@ -172,7 +172,7 @@ body{
 		background-color: #403E21;
 	}
 	.termsfeed-com---pc-overlay {
-		background: rgba(38, 87, 106, 0.5);
+		background: rgba(38, 87, 106, 0.5); 
 	}
 	.termsfeed-com---palette-dark .cc-pc-head {
 		background: #403E21;
@@ -1052,11 +1052,17 @@ body{
 						img{
 							display: none;
 						}
-						.dcd_captions{
-							font-size: 100%;
-							bottom: -1em;
-						}
 					}
+                    .dcd_captions{
+                        p{
+                            font-size: 140%;
+                            font-style: italic;
+                            color: var(--black);
+                            text-align: center;
+                            display: block;
+                            padding: 0.25em;
+                        }
+                    }
 				}
 				.result{
 					h2{
@@ -1359,7 +1365,7 @@ body{
 						position: relative;
 						overflow: hidden;
 					}
-					+ p, + ul, + ol, + figure{
+					+ p, + ul, + ol, + figure,  +.float-right{
 						margin-top: calc(12em/16);
 					}
 					+ h2, + h3, + h4, + h5, + h6{
@@ -1367,7 +1373,7 @@ body{
 					}
 				}
 				blockquote{
-					+ p, + ul, + ol, + figure, +blockquote{
+					+ p, + ul, + ol, + figure,  +.float-right, +blockquote{
 						margin-top: calc(12em/18);
 					}
 					+ h2, + h3, + h4, + h5, + h6{
