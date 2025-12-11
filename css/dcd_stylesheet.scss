@@ -1036,14 +1036,14 @@ body{
                         outline-offset: calc(-10em / 10);
 					}
 					&.dcd_bg_style1, .dcd_bg_style1, &.dcd_bg_style2, .dcd_bg_style2{
-						background-color: #9fb4c1;
 						display: block;
 						height: 100%;
-						border-radius: 1.5em 1.5em 0 0;
-    					border: calc(5em/15) inset #D5E7F2;
 						overflow: visible;
 						position: relative;
 						z-index: 1;
+                        &.bg_center{
+                            @include BGcenter;
+                        }
 						&.nobgphoto{
 							height: auto;
 							padding-bottom: 0;
