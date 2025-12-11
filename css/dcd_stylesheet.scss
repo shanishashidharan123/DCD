@@ -695,11 +695,11 @@ body{
                         border: none;
                         padding: 0.5em 1.5em;
                         &:hover, &:focus, &.active{
-                            color: #ffffff;
+                            color: var(--black);
                             background-color: var(--themeadcolor2);  
                         }
                         &:active{
-                            color: #f1f1f1;
+                            color: var(--black);
 							background-color: var(--themeadcolor2);
 							@include boxshadow1;  
                         }
@@ -1509,7 +1509,7 @@ body{
 					color: var(--dcdglow);
 				}
 				&:active{
-					color: #EBAA2C;
+					color: var(--themeadcolor1);
 				}
 			}
 			.fa-arrow-left-long{
