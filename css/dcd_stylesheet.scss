@@ -1038,6 +1038,7 @@ body{
 					&.dcd_bg_style1, .dcd_bg_style1, &.dcd_bg_style2, .dcd_bg_style2{
 						display: block;
 						height: 100%;
+						min-height: 24em;
 						overflow: visible;
 						position: relative;
 						z-index: 1;
