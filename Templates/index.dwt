@@ -14,7 +14,7 @@
 <!-- Bootstrap -->
 <link href="../css/all.css" rel="stylesheet">
 <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="../css/dcd_stylesheet.css?v=2.3" rel="stylesheet">
+<link href="../css/dcd_stylesheet.css?v=2.4" rel="stylesheet">
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
@@ -23,7 +23,10 @@
 <script src="../js/jquery-3.4.1.min.js"></script>
 <header>
   <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href="#"><img src="../images/logo.png" width="72" height="72" alt="Doctor&#8217;s Clinic And Diagnostics"><br>
-    <span class="dcdtext">Doctor&#8217;s Clinic And Diagnostics</span></a>
+    <span class="dcdtext">Doctor&#8217;s<br>
+    Clinic<br>
+    And<br>
+    Diagnostics</span></a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#dcd_hdmenu" aria-controls="dcd_hdmenu" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-solid fa-list"></i></span> </button>
     <div class="collapse navbar-collapse" id="dcd_hdmenu">
       <ul class="navbar-nav mr-auto">
@@ -35,18 +38,7 @@
         <li class="nav-item"> <a class="nav-link" href="#">Doctors</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#">Diagnostics</a> </li>
         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="labservices" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Lab Services </a>
-          <div class="dropdown-menu"> 
-              <a class="dropdown-item" href="#">Routine Blood Tests</a> 
-              <a class="dropdown-item" href="#">Biochemistry Tests</a> 
-              <a class="dropdown-item" href="#">Hormone &amp; Thyroid Testing</a> 
-              <a class="dropdown-item" href="#">Infection Screening</a> 
-              <a class="dropdown-item" href="#">Diabetes Monitoring</a> 
-              <a class="dropdown-item" href="#">Urine &amp; Stool Analysis</a> 
-              <a class="dropdown-item" href="#">Pregnancy &amp; Fertility Tests</a> 
-              <a class="dropdown-item" href="#">Cardiac Risk Markers</a> 
-              <a class="dropdown-item" href="#">Coagulation Profile</a> 
-              <a class="dropdown-item" href="#">Home Sample Collection</a> 
-            </div>
+          <div class="dropdown-menu"> <a class="dropdown-item" href="#">Routine Blood Tests</a> <a class="dropdown-item" href="#">Biochemistry Tests</a> <a class="dropdown-item" href="#">Hormone &amp; Thyroid Testing</a> <a class="dropdown-item" href="#">Infection Screening</a> <a class="dropdown-item" href="#">Diabetes Monitoring</a> <a class="dropdown-item" href="#">Urine &amp; Stool Analysis</a> <a class="dropdown-item" href="#">Pregnancy &amp; Fertility Tests</a> <a class="dropdown-item" href="#">Cardiac Risk Markers</a> <a class="dropdown-item" href="#">Coagulation Profile</a> <a class="dropdown-item" href="#">Home Sample Collection</a> </div>
         </li>
         <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
       </ul>
