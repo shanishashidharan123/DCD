@@ -776,10 +776,13 @@ body{
 						}
 						.btn{
 							&.btn-outline-success{
+                                font-size: calc(16em/10);
 								color: #ffffff;
 								background-color: var(--dcdglow);
                                 border-color: var(--dcdglow);
                                 border-radius: 0;
+                                padding: calc(6em/16) calc(12em/16);
+                                height: calc(38em/16);
                                 outline: calc(2em/16) solid #ffffff;
                                 outline-offset: calc(-4em/16);
                                 .fa-magnifying-glass{
