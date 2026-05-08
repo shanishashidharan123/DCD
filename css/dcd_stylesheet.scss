@@ -1541,13 +1541,13 @@ body{
 			}
 			.dcd_carousel_1{
 				@include BGcenter;
-				min-height: calc(100vh - 10.8em);
 				padding: 0;
 				position: relative;
                 .dcd_secn{
                     display: flex;
                     align-items: flex-end;
                     justify-content: center;
+                    min-height: calc(100vh - 10.8em);
                 }
 			}
 			.dcd_carousel_caption{
